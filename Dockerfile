@@ -6,6 +6,7 @@ RUN curl -sL bootstrap.pypa.io/get-pip.py | sudo python \
 
 RUN deps='\
          ruby \
+         postgresql-client \
          libpng-dev \
          libmagickwand-dev \
          libpq-dev \
